@@ -1,0 +1,7 @@
+dist
+src
+build
+*.spec
+venv
+config.yml
+__pycache__

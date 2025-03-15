@@ -1,0 +1,1 @@
+"""PySubs AI Translator"""
