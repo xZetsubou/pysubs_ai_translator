@@ -1,5 +1,5 @@
 """
-Usage exmpale: py deepseek_chat.py -src "src" -target_lang arabic -notes "This is a chinese anime called The Outcast"
+Usage exmpale: py pysub.py -src "src/file.ass" -target_lang arabic -notes "This is a chinese anime called The Outcast"
 """
 
 from openai import AsyncOpenAI
