@@ -20,6 +20,7 @@ An asynchronous tool built with python to translate subtitles files that support
 ## Usage
 
 **Installation**
+This will create a Python virtual environment. Each time you want to use the tool, you will need to activate it before running it
 
 ```shell
 
