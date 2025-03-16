@@ -87,7 +87,6 @@ async def _translate(
 
     async def make_request(line_num, subs_entries):
         async with semo:
-            # print(f"Working on the line: {line_num}")
             res = await client.chat.completions.create(
                 model=config_load().get("model_name", "deepseek-chat"),
                 messages=prepare_message(line_num, subs_entries),
@@ -101,6 +100,7 @@ async def _translate(
             if updated_callback:
                 updated_callback(filename, res_content, line_num, len(subs))
             translated_lines.append((line_num, res_content))
+            print(f"Finished line: {line_num}/ {len(subs)}")
 
     subs_as_list: dict[int, str] = {idx: line.text for idx, line in enumerate(subs)}
     for num, sub in subs_as_list.items():
