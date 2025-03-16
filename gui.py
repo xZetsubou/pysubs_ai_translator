@@ -4,11 +4,16 @@ import asyncio
 import os
 import pysubs2
 
+__version__ = (2025, 3, 0)
+
 app_name = "PySubs OpenAI Translator"
 app.native.window_args["background_color"] = "#111111"
 app.native.window_args["resizable"] = False
 ui.dark_mode().enable()
 
+ui.label(".".join(map(str, __version__))).style(
+    "position: absolute; left: 1.6%; top: 5px; font-size: 12px; color: teal;"
+)
 with ui.row(wrap=False).style("position: absolute; right: 1.6%; top: 10px;"):
     css_chips = "height: 21px; border-radius: 4px; margin: 0; text-align: center;"
     ui.chip(
