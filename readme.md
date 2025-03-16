@@ -54,3 +54,11 @@ otherwise manually follow the installation instructions above and run GUI module
 ```shell
 py gui.py
 ```
+
+ Single file  | Multifiles 
+:-------------------------:|:-------------------------:
+| ![](https://github.com/user-attachments/assets/c4fe3261-4b20-40c5-bd0f-19076850bbda) | ![](https://github.com/user-attachments/assets/cea84784-93fe-4f22-bfce-4bbb54b39762) |
+
+
+
+
