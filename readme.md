@@ -47,7 +47,7 @@ py pysub.py -src "src/the outcast 05.ass" -target_lang arabic -notes "This is a 
 
 **GUI**
 
-On windows I would recommended to download the executable `exe` file from [releases](https://github.com/xZetsubou/pysubs_ai_translator/releases)
+On windows I would recommended to download the executable `exe` im from [releases](https://github.com/xZetsubou/pysubs_ai_translator/releases)
 
 otherwise manually follow the installation instructions above and run GUI module.
 
