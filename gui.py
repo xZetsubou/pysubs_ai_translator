@@ -7,7 +7,6 @@ import pysubs2
 app_name = "PySubs OpenAI Translator"
 app.native.window_args["background_color"] = "#111111"
 app.native.window_args["resizable"] = False
-# app.native.window_args["hidden"] = True
 ui.dark_mode().enable()
 
 with ui.row(wrap=False).style("position: absolute; right: 1.6%; top: 10px;"):
