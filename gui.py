@@ -191,6 +191,7 @@ with ui.tab_panels(tabs, value=one).classes("w-full") as main_panels:
             ),
         )
         btn.on_click(update_client)
+        btn.on_click(lambda: ui.notify("Saved", type="positive"))
 
 # ui.run()
 if __name__ == "__main__":

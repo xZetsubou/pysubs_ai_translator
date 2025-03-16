@@ -37,6 +37,7 @@ def config_save(data):
 
 def update_client():
     __config = config_load()
+    global client
     client = AsyncOpenAI(api_key=__config["api_key"], base_url=__config["openai_url"])
     return client
 
