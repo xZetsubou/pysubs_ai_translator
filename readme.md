@@ -20,6 +20,7 @@ An asynchronous tool built with python to translate subtitles files that support
 ## Usage
 
 **Installation**
+
 This will create a Python virtual environment. Each time you want to use the tool, you will need to activate it before running it
 
 ```shell
@@ -33,7 +34,8 @@ pip install -r requirements.txt
 ```
 
 
-**Usage**
+**RUN**
+
 Running the command for the first time would fail, but a `config.yml` file will appear open the config file and insert the `model, OpenAI URL and API KEY` -- by default this will initialize `deepseek` configuration, since this tool made and tested  on `deepseek`.
 
 Translate file `note: if the src is directory it will translate all subtitles files inside`
