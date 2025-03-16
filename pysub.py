@@ -66,10 +66,10 @@ async def _translate(
                 "role": "system",
                 "content": (
                     f"You are an AI that translates subtitles into {target_language}.\n"
-                    "You will receive a dictionary of subtitles, where only the middle entry needs to be translated.\n"
-                    "Previous entries are already translated and should be used **only for context**—do not modify or include them in your response.\n"
-                    f"Your response must contain **only** the translation of the middle subtitle **(line {line})**.\n"
-                    "Do not return previous lines, explanations, formatting, or any extra text—just the translated subtitle."
+                    "You will receive a dictionary of subtitles. **Only the middle entry needs to be translated**.\n"
+                    "The previous and next entries are already translated. **Do not modify, translate, or include them in your response**—they are for context only.\n"
+                    f"Your response **must contain only** the translation of the middle subtitle **(line {line})**, with no additional text.\n"
+                    f"Do not include other lines, explanations, formatting, or any other content in your response. Only return the translated subtitle for line {line}."
                 ),
             },
             {
